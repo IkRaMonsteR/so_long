@@ -6,14 +6,14 @@
 /*   By: irkalini <irkalini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 12:55:42 by irkalini          #+#    #+#             */
-/*   Updated: 2024/08/29 17:00:20 by irkalini         ###   ########.fr       */
+/*   Updated: 2025/01/03 01:11:48 by irkalini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_BONUS_H
 # define SO_LONG_BONUS_H
 
-# include "../mlx_linux/minilibx-linux/mlx.h"
+# include "../minilibx-linux/mlx.h"
 # include <X11/X.h>
 # include <X11/Xlib.h>
 # include "../librairies/get_next_line/get_next_line.h"

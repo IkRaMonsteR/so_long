@@ -6,7 +6,7 @@
 #    By: irkalini <irkalini@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/02 14:44:05 by irkalini          #+#    #+#              #
-#    Updated: 2024/09/02 18:53:18 by irkalini         ###   ########.fr        #
+#    Updated: 2025/01/03 01:11:41 by irkalini         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,14 +25,14 @@ FT_PRINTF_DIR = ./../librairies/ft_printf
 LIBFT_A = ./../librairies/libft/libft.a
 LIBFT_DIR = ./../librairies/libft
 
-MLX_A = ./../mlx_linux/minilibx-linux/libmlx.a
-MLX_DIR = ./../mlx_linux/minilibx-linux
+MLX_A = ./../minilibx-linux/libmlx.a
+MLX_DIR = ./../minilibx-linux
 
 CC = cc
 
 CFLAGS = -Wall -Wextra -Werror
 
-MLX_FLAGS = -L../mlx_linux/minilibx-linux -l:libmlx_Linux.a -L/usr/lib -lX11 -lXext -lXrandr -lXrender -lm -lpthread -lbsd
+MLX_FLAGS = -L../minilibx-linux -l:libmlx_Linux.a -L/usr/lib -lX11 -lXext -lXrandr -lXrender -lm -lpthread -lbsd
 
 all: $(FT_PRINTF_A) $(LIBFT_A) $(MLX_A) $(NAME)
 

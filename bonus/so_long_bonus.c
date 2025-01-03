@@ -6,7 +6,7 @@
 /*   By: irkalini <irkalini@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/29 12:51:25 by irkalini          #+#    #+#             */
-/*   Updated: 2024/08/29 16:37:31 by irkalini         ###   ########.fr       */
+/*   Updated: 2025/01/03 01:12:23 by irkalini         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,10 +63,8 @@ void	init_map_data(t_game *game)
 
 int	main(int argc, char **argv)
 {
-	int		i;
 	t_game	game;
 
-	i = 0;
 	if (argc != 2)
 		return (ft_printf("Error\nInvalid input\n"), 1);
 	if (!is_valid_extension(argv[1]))
